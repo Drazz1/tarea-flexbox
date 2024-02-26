@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* esto siempre al principio */
+/*  
+    DEFAUT VALUES
+    display flex
+    flex-direction: row
+    flex-wrap:noweap
+    aling-items: start
+    justify-content:flex-start
+    gap: espaciado entre hijos
+*/
+
+section{
+    display: flex;/* nos activa el flexbox */
+    flex-wrap: nowrap;/* default */
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: green;
+    height: 600px;
+    /* gap: 20px; */
+    /* 
+    space-around 
+    space-betwee
+    */ 
+}
+
+section .caja{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+header{
+    justify-content: space-around;
+    gap: ;
+}
